@@ -1,0 +1,72 @@
+@font-face{
+	 font-family: 'press_start_2pregular';
+    src: url('../fonts/pressstart2p-webfont.woff2') format('woff2'),
+         url('../fonts/pressstart2p-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: 'press_start_2pregular';
+}
+
+.full {
+  background: url("../image/grocerybg1.png") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#click{
+ position: fixed;
+    bottom: 0;
+    right: 0;
+ }
+ #click2{
+ position: fixed;
+    bottom: 0;
+    right: 0;
+ }
+ .bottom{
+ bottom: 0%; 
+ left: 0%;
+ position: fixed; 
+ display: block; 
+ float: left; 
+ margin-right: 1%; 
+ margin-bottom: 0.5em; 
+ 
+ }
+ .hidden{
+ display: none;
+ }
+ .bubble{
+ position: relative; left: 15%; top: 200px; display: block; float: left; margin-right: 1%; margin-bottom: 0.5em;
+ }
+ div.box{
+ background-color: rgba(255,255,255, .9);
+ opacity: ;
+ width: 600px;
+ height: 400px;
+ 
+ padding: 25px;
+ margin: 5px;
+ 
+ }
+ div.box2{
+ background-color: rgba(255,255,255, .9);
+ opacity: ;
+ width: 1000px;
+ height: 600px;
+ 
+ padding: 25px;
+ margin: 5px;
+ 
+ }
+ .nothidden{
+ display: block;
+ }
+ 
+ 

@@ -1,0 +1,55 @@
+@font-face{
+	 font-family: 'press_start_2pregular';
+    src: url('../fonts/pressstart2p-webfont.woff2') format('woff2'),
+         url('../fonts/pressstart2p-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: 'press_start_2pregular';
+}
+
+.full {
+  background: url("../image/housebg.png") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.full2 {
+  background: center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#click{
+ position: fixed;
+    bottom: 0;
+    right: 0;
+ }
+ #click2{
+ position: fixed;
+    bottom: 0;
+    left: 0;
+ }
+ .hidden{
+ display: none;
+ }
+ .pos{
+ bottom: 0; right: 5%;float: right;position: fixed; display: block;  margin-left: 1%; margin-bottom: 0.5em; width: 15%;
+ }
+ .bubble{
+ bottom: 40%;right: 15% ;position: fixed; display: block; float: right; margin-right: 1%; margin-bottom: 0.5em;
+ }
+ .bottom{
+ bottom: 0; left: 25%;float: left;position: fixed; display: block;  margin-left: 1%; margin-bottom: 0.5em; width: 15%;
+ 
+ }
+ .bubble2{
+ bottom: 60%;left: 30% ;position: fixed; display: block; float: right; margin-right: 1%; margin-bottom: 0.5em;
+ }
