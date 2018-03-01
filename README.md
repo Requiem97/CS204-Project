@@ -6,7 +6,7 @@ A website/game that implements algorithms taught in the course CS204, Design and
 * Dijkstra's Algorithm
 * Greedy Knapsack Algorithm
 
-##Authors
+## Authors
 * **Jerome Cases**
 * **Christel Maliksi**
 * **Louraine Monedero**
